@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.nura.db.entity">
+    <class name="HashDetails"  table="hash_dtls">
+        <id name="id" type="int" column="hash_id">
+            <generator class="native"/>
+        </id>
+        <property name="fileName" column="file_name" type="string"/>
+        <property name="fileOwner" column="file_owner" type="string"/>
+        <property name="mailid" column="mailid" type="string"/>
+        <property name="hash1_part" column="hash1_part" type="string"/>
+        <property name="hash2_part" column="hash2_part" type="string"/>
+        <property name="hash3_part" column="hash3_part" type="string"/>
+        <property name="hash4_part" column="hash4_part" type="string"/>
+        <property name="hash1_part_url" column="hash1_part_url" type="string"/>
+        <property name="hash2_part_url" column="hash2_part_url" type="string"/>
+        <property name="hash3_part_url" column="hash3_part_url" type="string"/>
+        <property name="hash4_part_url" column="hash4_part_url" type="string"/>
+    </class>
+</hibernate-mapping>

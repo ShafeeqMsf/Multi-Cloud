@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.nura.db.entity">
+    <class name="FileDetails" table="FILE_DETAILS">
+        <id name="fileid" type="int" column="file_seq">
+            <generator class="native"/>
+        </id>
+        <property name="fileName" column="file_name" type="string"/>
+        <property name="fileOwner" column="file_owner" type="string"/>
+        <property name="cs1_url" column="cs1_url" type="string"/>
+        <property name="cs2_url" column="cs2_url" type="string"/>
+        <property name="cs3_url" column="cs3_url" type="string"/>
+        <property name="cs4_url" column="cs4_url" type="string"/>
+        <property name="rs1_url" column="rs1_url" type="string"/>
+        <property name="rs2_url" column="rs2_url" type="string"/>
+        <property name="rs3_url" column="rs3_url" type="string"/>
+        <property name="rs4_url" column="rs4_url" type="string"/>
+        <property name="xor_url" column="xor_url" type="string"/>
+        <property name="part1" column="part1_size" type="integer"/>
+        <property name="part2" column="part2_size" type="integer"/>
+        <property name="part3" column="part3_size" type="integer"/>
+        <property name="part4" column="part4_size" type="integer"/>
+        <property name="fileSize" column="file_size" type="integer"/>
+        <property name="mode" column="mode" type="string"/>
+    </class>
+</hibernate-mapping>
