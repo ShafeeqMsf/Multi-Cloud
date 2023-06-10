@@ -1,11 +1,11 @@
 
-### Multi-Cloud Security Deployment with Google Drive and Google Dropbox Integration
+# Multi-Cloud Security Deployment with Google Drive and Google Dropbox Integration
 
-# Introduction 
+## Introduction 
 
 This project focuses on the implementation of a multi-level cloud security deployment using Google Drive and Google Dropbox for secure cloud transactions. The data is categorized into three major parts based on security requirements: high security, medium security, and low security. Each category employs different encryption and storage approaches to ensure data confidentiality and integrity.
 
-# Project Overview
+## Project Overview
 
 The project aims to provide a comprehensive solution for securing data in the cloud by leveraging multi-cloud integration and encryption techniques. The following sections outline the key components and security measures implemented within each security level:
 
@@ -35,7 +35,7 @@ The project implementation involves the following steps:
 
 5.**Regular Audits and Testing:** To ensure the ongoing effectiveness of security controls, regular audits and penetration testing are conducted. These assessments help identify any vulnerabilities and allow for timely remediation to maintain the integrity and confidentiality of the stored data.
 
-# Conclusion
+## Conclusion
 
 This project offers a robust multi-cloud security deployment for handling data of varying security levels. By implementing encryption techniques and leveraging the capabilities of Google Drive and Google Dropbox, the project ensures the confidentiality and integrity of the data. The categorization of data into high security, medium security, and low security allows for tailored security measures to be applied, optimizing costs and complexity while providing an appropriate level of protection for each category.Multi-Cloud Security Deployment with Google Drive and Google Dropbox Integration
 
