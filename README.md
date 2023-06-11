@@ -9,19 +9,19 @@ This project focuses on the implementation of a multi-level cloud security deplo
 
 The project aims to provide a comprehensive solution for securing data in the cloud by leveraging multi-cloud integration and encryption techniques. The following sections outline the key components and security measures implemented within each security level:
 
-**High Security**
+## High Security
 
 In the high security level, the data is encrypted and stored in a multi-cloud environment. This approach enhances the security posture by distributing the encrypted data across multiple cloud service providers, mitigating the risks associated with a single point of failure or vendor-specific vulnerabilities. The encryption algorithm used ensures the confidentiality of the data, even if unauthorized access occurs. Furthermore, regular audits and penetration testing are conducted to assess the effectiveness of security controls and identify any potential vulnerabilities.
 
-**Medium Security**
+## Medium Security
 
 The medium security level focuses on encrypting and storing data in a single cloud environment, specifically utilizing Google Drive. While the multi-cloud approach provides a higher level of redundancy, the medium security level is suitable for data that requires protection but doesn't necessitate the additional complexity and cost of multi-cloud deployment. The encryption mechanism employed ensures that the data remains confidential within the selected cloud service provider.
 
-**Low Security**
+## Low Security
 
 Data categorized as low security is encrypted and stored in a single cloud, similar to the medium security level. However, the data stored in this category typically comprises information that is less sensitive or requires minimal protection. By utilizing a single cloud environment, the project optimizes costs and reduces complexities while still maintaining a reasonable level of security for the data.
 
-**Implementation Details**
+## Implementation Details
 
 The project implementation involves the following steps:
 
